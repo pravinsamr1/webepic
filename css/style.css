@@ -19335,3 +19335,34 @@ html {
 .pff{
   padding-bottom: 40px;
 }
+
+.pages-heading-image img{
+  height: 430px !important;
+}
+
+.nmnmn img{
+  width: 600px;
+  height: 400px;
+}
+
+.mmm{
+  font-size: 25px;
+}
+
+.point-flex{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.point-flex p{
+  font-size: 20px;
+}
+
+.points-div{
+  padding: 20px 0px ;
+}
+
+.points-div ul li{
+  padding-bottom: 20px;
+}
