@@ -37,6 +37,11 @@
   content: "\e91c";
   color: #fff;
 }
+
+.icon-company:before {
+  content: "f1ad";
+  color: #fff;
+}
 .icon-email:before {
   content: "\e91d";
   color: #fff;

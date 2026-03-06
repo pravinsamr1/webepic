@@ -16926,9 +16926,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 430.75px;
+  width: 200px;
   height: 100px;
-  background: #1D1D1D;
   margin: 0 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -19365,4 +19364,74 @@ html {
 
 .points-div ul li{
   padding-bottom: 20px;
+}
+
+/* MEGA MENU FIX */
+
+.mega-menu{
+    position: absolute;
+    top: 100%;
+    left: -50px;
+    width: 750px !important;
+
+    display: flex !important;
+    justify-content: space-between;
+
+    background: #3b3b3b;
+    padding: 35px;
+
+    border-radius: 6px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+/* remove template box style */
+.mega-menu li{
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    width: auto !important;
+    border-bottom: 2px solid transparent !important;
+}
+
+/* column */
+.mega-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* heading */
+.mega-column h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+/* links */
+.mega-column a{
+    padding: 6px 0 !important;
+    color: #ddd;
+    font-size: 14px;
+    border-bottom: 2px solid #fff !important;
+}
+
+.mega-column a:hover{
+    color: #f5b041;
+}
+
+.brand-marue-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+.single-img-marque{
+    width: calc(20% - 30px); /* 5 items per row */
+    text-align: center;
+}
+
+.single-img-marque img{
+    max-width: 100%;
+    border-radius: 20px !important;
 }
