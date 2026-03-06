@@ -155,3 +155,94 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.getElementById("header").innerHTML = header;
 });
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const footer = `
+    <footer>
+        <div class="footer-area body-black ">
+            <div class="container">
+                <div class="row gx-0">
+                    <div class="col-xl-3 col-lg-3 p-0">
+                        <div class="footer-area-company-info p-relative">
+                            <div class="footer-area-company-logo pt-75 pb-33">
+                                <img src="./images/logo/footer-logo.png" alt="">
+                            </div>
+                            <hr class="line-1 p-absolute">
+                            <hr class="mt-0 mb-0">
+                            <div class="footer-area-heading-text pt-33 pb-31">
+                                <h2>Let’s Work</h2>
+                                <h4>Together</h4>
+                            </div>
+                            <div class="footer-area-company-fast-email pb-69">
+                                <a href="mailto:info@webepictech.com"> info@webepictech.com <img class="pl-10"
+                                        src="./images/icon/footer-up-awrro.svg" alt=""> </a>
+                            </div>
+                            <hr class="mt-0 mb-16">
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="footer-area-contract-info ">
+                            <div
+                                class="footer-area-social-info d-block d-xl-flex d-lg-flex d-md-flex justify-content-between align-items-center pt-74 pb-34">
+                                <div class="sce-email ml-120">
+                                    <a href="mailto:info@webepictech.com"><img class="mr-15"
+                                            src="./images/icon/footer-email.svg" alt=""> info@webepictech.com </a>
+                                </div>
+                                <div class="social-content d-flex gap-40">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-whatsapp"></i>
+                                    <i class="fab fa-youtube"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-area-quick-menu d-flex pt-67 pb-40 ml-50">
+                            <div class="footer-area-quick-menu-one ">
+                                <h4 class="mb-26">Quick Links</h4>
+                                <ul>
+                                    <li><a href="about.html">Company Overview</a></li>
+                                    <li><a href="our-philosophy-and-focus.html">Our Focus</a></li>
+                                    <li><a href="our-clients.html">Clients</a></li>
+                                    <li><a href="blog.html">Blogs</a></li>
+                                    <li><a href="free-seo-audit.html">Free SEO Audit</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-area-quick-menu-two  ml-67 mr-92">
+                                <h4 class="mb-26">Our Services</h4>
+                                <ul>
+                                    <li><a href="web-design.html">Web Design</a></li>
+                                    <li><a href="web-development.html">Web Development</a></li>
+                                    <li><a href="mobile-application.html">Mobile Development</a></li>
+                                    <li><a href="ai-agent.html">AI Agent</a></li>
+                                    <li><a href="seo.html">SEO</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-area-services" style="width: 300px;">
+                                <h4 class="mb-26">Contact Info</h4>
+                                <p>
+Near KCT Tech park,Saravanampatti,
+Coimbatore, Tamil Nadu 641035</p>
+<p>99440 11175</p>
+<p>99440 11165</p>
+<p>info@webepictech.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy-right-info d-flex justify-content-center align-items-center pb-15 ">
+                <span>©2024 <a href="#">webepictech</a> All Rights Reserved</span>
+            </div>
+        </div>
+    </footer>
+
+    `
+
+    document.getElementById("footer").innerHTML = footer;
+});
