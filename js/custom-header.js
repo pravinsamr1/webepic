@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     const header = `
-    <header>
+    <header class="">
         <div class="header-area body-black p-relative  ">
             <div class="menu-bar fixed-menu">
-                <div class="container">
+                <div class="container mainnn-haader">
                     <div class="row align-items-center gx-0">
                         <div class="col-5 col-xl-2 col-lg-3 col-md-4 p-0">
                             <div class="header-area-image style-2 ">

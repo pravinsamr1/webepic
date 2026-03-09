@@ -19466,3 +19466,9 @@ html {
   padding: 10px 20px !important;
   border-radius: 50px;
 }
+
+@media (min-width:1200px){
+  .mainnn-haader{
+    max-width: 1250px !important;
+  }
+}
