@@ -25,8 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 <li><a href="about.html">Company Overview</a></li>
                                                 <li><a href="mission-vision.html">Vision and Mission</a></li>
                                                 <li><a href="our-philosophy-and-focus.html">Our Philosophy and Focus</a></li>
-                                                <li><a href="./contact.html">Why choose us</a></li>
-                                                <li><a href="carrers.html">Careers </a></li>
                                             </ul>
                                         </li>
                                         <li class="scroll-effect"><a class="plus-icon" href="#">Services</a>
@@ -46,16 +44,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
                                         </li>
                                         <li class="scroll-effect"><a href="blog.html">Blogs</a></li>
-                                        <li class="scroll-effect"><a href="contact-us.html">Reach Us</a></li>
                                         <li class="scroll-effect"><a href="free-seo-audit.html">Free SEO Audit</a></li>
+                                        <li class="scroll-effect"><a href="carrers.html">Careers</a></li>
                                     </ul>
                                 </nav>
                                 <div class="header-area-touch-btn">
-                                    <a href="#">Get In Touch</a>
+                                    <a href="contact-us.html">Reach Us</a>
                                 </div>
 
-
-
+                                <div id="toggle-button" class="button-like">
+                                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                                </div>
                             </div>
                         </div>
                         <!-- Mobile Responsive Toggle Btn Start  -->
@@ -72,51 +71,45 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <ul class="dropdown">
                                     <li>
                                         <a href="index.html">Home</a>
-                                        <div class="dropdown-btn">
-                                            <button class="n  width-100" onclick="toggleList(1)"><i
-                                                    class="fa-solid fa-plus"></i></button>
-                                        </div>
-                                        <ul id="dropdown-toggle-menu-1" class=" hidden-list">
-                                            <li><a href="index.html">HomeOne</a></li>
-                                            <li><a href="index-two.html">HomeTwo</a></li>
-                                        </ul>
                                     </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="#0">About</a>
                                         <div class="dropdown-btn">
                                             <button class="dropdown-toggle-btn width-100" onclick="toggleList(2)"><i
                                                     class="fa-solid fa-plus"></i></button>
                                         </div>
                                         <ul id="dropdown-toggle-menu-2" class=" hidden-list">
-                                            <li><a href="./pricing.html">Pricing</a></li>
-                                            <li><a href="./team.html">Team</a></li>
-                                            <li><a href="./team-details.html">Team Details</a></li>
-                                            <li><a href="./contact.html">Contact</a></li>
+                                            <li><a href="about.html">Company Overview</a></li>
+                                                <li><a href="mission-vision.html">Vision and Mission</a></li>
+                                                <li><a href="our-philosophy-and-focus.html">Our Philosophy and Focus</a></li>
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href="./service.html">Services</a>
+                                    <li><a href="#0">Service</a>
                                         <div class="dropdown-btn">
                                             <button class="dropdown-toggle-btn width-100" onclick="toggleList(3)"><i
                                                     class="fa-solid fa-plus"></i></button>
                                         </div>
                                         <ul id="dropdown-toggle-menu-3" class=" hidden-list">
-                                            <li><a href="service.html">Services Page</a></li>
-                                            <li><a href="services-details.html">Services Details</a></li>
+                                            <li><a href="web-design.html">Web Design</a></li>
+                                                <li><a href="web-development.html">Web Development</a></li>
+                                                <li><a href="cms-and-ecommerce.html">CMS & Ecommerce</a></li>
+                                                <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                                                <li><a href="mobile-applications.html">Mobile Applications</a></li>
+                                                <li><a href="ai-agent.html">AI Agent</a></li>
+                                                <li><a href="sap.html">SAP</a></li>
+                                                <li><a href="devops.html">DevOps</a></li>
                                         </ul>
-
                                     </li>
-                                    <li><a href="./projects.html">Projects</a></li>
+                                    <li><a href="./clients.html">Our Clients</a></li>
                                     <li>
                                         <a href="./blog.html">Blogs</a>
-                                        <div class="dropdown-btn">
-                                            <button class="dropdown-toggle-btn width-100" onclick="toggleList(4)"><i
-                                                    class="fa-solid fa-plus"></i></button>
-                                        </div>
-                                        <ul id="dropdown-toggle-menu-4" class=" hidden-list">
-                                            <li><a href="./blog.html">Blog Page</a></li>
-                                            <li><a href="./blog-details.html">Blog Details</a></li>
-                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="free-seo-audit.html">Free SEO Audit</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="careers.html">Carrers</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -124,23 +117,25 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <h4 class="mb-25">Contact Info</h4>
                                 <div class="address mb-20">
                                     <i class="mr-10 fa-solid fa-location-dot"></i>
-                                    <span>2972 Westheimer Rd. Santa Ana </span>
+                                    <span>Saravanampatti, Coimbatore, <br>
+                                     Tamil Nadu 641035</span>
                                 </div>
                                 <div class="email mb-20">
                                     <i class="mr-10 fa-regular fa-envelope"></i>
-                                    <a href="mailto:georgia.young@example.com"> georgia.young@example.com </a>
+                                    <a href="mailto:info@webepictech.com">  info@webepictech.com</a>
                                 </div>
                                 <div class="phone">
                                     <i class="mr-10 fa-solid fa-phone"></i>
-                                    <span> +123-456-7890 </span>
+                                    <span>99440 11175</span>
                                 </div>
                             </div>
                             <div class="toggle-social-icon">
                                 <ul class="d-flex justify-content-between">
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></li>
-                                    <li><a href="#"><i class="fa-solid fa-basketball"></i></a></li>
+                                    <a href="https://www.facebook.com/webepictechtechnologies/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/webepictechnologies/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/company/web-epic-technologies-private-limited/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://x.com/webepictech" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href="http://youtube.com/@webepictechnologies" target="_blank"><i class="fab fa-youtube"></i></a>
                                 </ul>
                             </div>
                         </div>
@@ -154,6 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
     `
 
     document.getElementById("header").innerHTML = header;
+
 });
 
 
@@ -168,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="col-xl-3 col-lg-3 p-0">
                         <div class="footer-area-company-info p-relative">
                             <div class="footer-area-company-logo pt-75 pb-33">
-                                <img src="./images/logo/footer-logo.png" alt="">
+                                <img src="./images/my-img/logo-light.png" alt="">
                             </div>
                             <hr class="line-1 p-absolute">
                             <hr class="mt-0 mb-0">
@@ -177,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <h4>Together</h4>
                             </div>
                             <div class="footer-area-company-fast-email pb-69">
-                                <a href="mailto:info@webepictech.com"> info@webepictech.com <img class="pl-10"
+                                <a href="tel:919944011175"> 99440 11175<img class="pl-10"
                                         src="./images/icon/footer-up-awrro.svg" alt=""> </a>
                             </div>
                             <hr class="mt-0 mb-16">
@@ -192,12 +188,11 @@ document.addEventListener("DOMContentLoaded", function() {
                                             src="./images/icon/footer-email.svg" alt=""> info@webepictech.com </a>
                                 </div>
                                 <div class="social-content d-flex gap-40">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <i class="fab fa-instagram"></i>
-                                    <i class="fab fa-linkedin-in"></i>
-                                    <i class="fab fa-twitter"></i>
-                                    <i class="fab fa-whatsapp"></i>
-                                    <i class="fab fa-youtube"></i>
+                                    <a href="https://www.facebook.com/webepictechtechnologies/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/webepictechnologies/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/company/web-epic-technologies-private-limited/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://x.com/webepictech" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href="http://youtube.com/@webepictechnologies" target="_blank"><i class="fab fa-youtube"></i></a>
 
                                 </div>
                             </div>
@@ -228,16 +223,19 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <p>
 Near KCT Tech park,Saravanampatti,
 Coimbatore, Tamil Nadu 641035</p>
-<p>99440 11175</p>
-<p>99440 11165</p>
-<p>info@webepictech.com</p>
+<div class="d-flex gap-20">
+<p><a href="tel:919944011175">99440 11175</a></p>
+<span class="line-2"></span>
+<p><a href="tel:919944011165">99440 11165</a></p>
+</div>
+<p><a href="mailto:info@webepictech.com">info@webepictech.com</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-copy-right-info d-flex justify-content-center align-items-center pb-15 ">
-                <span>©2024 <a href="#">webepictech</a> All Rights Reserved</span>
+                <span>©2021 <a href="https://webepictech.com/" target="_blank">webepictech</a> All Rights Reserved</span>
             </div>
         </div>
     </footer>

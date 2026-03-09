@@ -14951,7 +14951,7 @@ html {
   content: "";
   width: 120px;
   height: 120px;
-  background: #141413;
+  /* background: #141413; */
   position: absolute;
   right: -2px;
   top: -1px;
@@ -19345,7 +19345,7 @@ html {
 }
 
 .mmm{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .point-flex{
@@ -19434,4 +19434,35 @@ html {
 .single-img-marque img{
     max-width: 100%;
     border-radius: 20px !important;
+}
+
+.header-area-menu.style-2 ul li{
+    margin-left: 45px !important;
+}
+
+.footer-bg{
+  background: #221e1e !important;
+}
+
+.line-2{
+  background: #fff !important;
+  width: 2px !important;
+  height: 100% !important;
+}
+
+
+@media (max-width: 767px){
+  .pages-heading-image img{
+    height: 130px !important;
+  }
+}
+
+.banner-button a{
+  font-size: 18px;
+}
+
+.banner-button{
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px 20px !important;
+  border-radius: 50px;
 }
