@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const header = `
+document.addEventListener("DOMContentLoaded", function () {
+  const header = `
     <header class="">
         <div class="header-area body-black p-relative  ">
             <div class="menu-bar fixed-menu">
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="row align-items-center gx-0">
                         <div class="col-5 col-xl-2 col-lg-3 col-md-4 p-0">
                             <div class="header-area-image style-2 ">
-                                <a href="index.html"><img src="./images/logo/header-logo.png" alt="logo"></a>
+                                <a href="index.html"><img src="./images/my-img/logo-light.png" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-7 col-xl-10 col-lg-9 col-md-8">
@@ -44,12 +44,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
                                         </li>
                                         <li class="scroll-effect"><a href="blog.html">Blogs</a></li>
-                                        <li class="scroll-effect"><a href="free-seo-audit.html">Free SEO Audit</a></li>
+                                        <li class="scroll-effect"><a href="contact-us.html">Reach Us</a></li>
                                         <li class="scroll-effect"><a href="carrers.html">Careers</a></li>
                                     </ul>
                                 </nav>
                                 <div class="header-area-touch-btn">
-                                    <a href="contact-us.html">Reach Us</a>
+                                    <a href="free-seo-audit.html">Free SEO Audit</a>
                                 </div>
 
                                 <div id="toggle-button" class="button-like">
@@ -146,17 +146,13 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
     </header>
 
-    `
+    `;
 
-    document.getElementById("header").innerHTML = header;
-
+  document.getElementById("header").innerHTML = header;
 });
 
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    const footer = `
+document.addEventListener("DOMContentLoaded", function () {
+  const footer = `
     <footer>
         <div class="footer-area body-black ">
             <div class="container">
@@ -179,10 +175,10 @@ document.addEventListener("DOMContentLoaded", function() {
                             <hr class="mt-0 mb-16">
                         </div>
                     </div>
-                    <div class="col-xl-9 col-lg-9">
+                    <div class="col-xl-9 col-lg-9" >
                         <div class="footer-area-contract-info ">
                             <div
-                                class="footer-area-social-info d-block d-xl-flex d-lg-flex d-md-flex justify-content-between align-items-center pt-74 pb-34">
+                                class="footer-area-social-info d-block d-xl-flex d-lg-flex d-md-flex  align-items-center pt-74 pb-34" style="justify-content: space-between">
                                 <div class="sce-email ml-120">
                                     <a href="mailto:info@webepictech.com"><img class="mr-15"
                                             src="./images/icon/footer-email.svg" alt=""> info@webepictech.com </a>
@@ -197,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="footer-area-quick-menu d-flex pt-67 pb-40 ml-50">
+                        <div class="footer-area-quick-menu d-flex pt-67 pb-40 ml-50 justify-content-between">
                             <div class="footer-area-quick-menu-one ">
                                 <h4 class="mb-26">Quick Links</h4>
                                 <ul>
@@ -208,7 +204,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <li><a href="free-seo-audit.html">Free SEO Audit</a></li>
                                 </ul>
                             </div>
-                            <div class="footer-area-quick-menu-two  ml-67 mr-92">
+                            <div class="footer-area-quick-menu-two  ml-67 ">
                                 <h4 class="mb-26">Our Services</h4>
                                 <ul>
                                     <li><a href="web-design.html">Web Design</a></li>
@@ -220,12 +216,12 @@ document.addEventListener("DOMContentLoaded", function() {
                             </div>
                             <div class="footer-area-services" style="width: 300px;">
                                 <h4 class="mb-26">Contact Info</h4>
-                                <p>
-Near KCT Tech park,Saravanampatti,
+                                <p style="color:#fff" class="pb-10"> 
+Near KCT Tech park, Saravanampatti,
 Coimbatore, Tamil Nadu 641035</p>
-<div class="d-flex gap-20">
-<p><a href="tel:919944011175">99440 11175</a></p>
-<span class="line-2"></span>
+<div class="d-flex gap-20 pb-10">
+<p ><a href="tel:914224714181">422 4714181</a></p>
+<span class="line-2" style="width:2px;height:100%;background:#fff;"></span>
 <p><a href="tel:919944011165">99440 11165</a></p>
 </div>
 <p><a href="mailto:info@webepictech.com">info@webepictech.com</a></p>
@@ -235,12 +231,12 @@ Coimbatore, Tamil Nadu 641035</p>
                 </div>
             </div>
             <div class="footer-copy-right-info d-flex justify-content-center align-items-center pb-15 ">
-                <span>©2021 <a href="https://webepictech.com/" target="_blank">webepictech</a> All Rights Reserved</span>
+                <span  style="font-size:18px">©2021 <a href="https://webepictech.com/"  style="font-size:18px" target="_blank">webepictech</a> All Rights Reserved</span>
             </div>
         </div>
     </footer>
 
-    `
+    `;
 
-    document.getElementById("footer").innerHTML = footer;
+  document.getElementById("footer").innerHTML = footer;
 });

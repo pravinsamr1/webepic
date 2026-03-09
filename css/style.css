@@ -19346,6 +19346,7 @@ html {
 
 .mmm{
   font-size: 20px;
+  font-weight: 500 !important;
 }
 
 .point-flex{
@@ -19465,6 +19466,23 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px 20px !important;
   border-radius: 50px;
+}
+
+.portfolio-area-img img{
+  border-radius: 20px;
+}
+
+.testimonial-area-img-content img{
+  border-radius: 20px !important;
+}
+
+.about-area-side-img img{
+  border-radius: 20px !important;
+
+}
+
+.nmnmn img{
+  border-radius: 20px !important;
 }
 
 @media (min-width:1200px){
