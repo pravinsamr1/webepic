@@ -14754,7 +14754,7 @@ html {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-area-title-one {
-    font-size: 120px;
+    font-size: 110px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -19575,4 +19575,8 @@ a:hover{
 
 .footerr-backk{
   background-image: url(/images/my-img/hero11-bg.png);
+}
+
+.hero-area-title h1{
+  font-size: 130px;
 }
