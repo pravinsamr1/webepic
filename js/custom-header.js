@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     </li>
 
                                     <li>
-                                        <a href="careers.html">Carrers</a>
+                                        <a href="carrers.html">Carrers</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -178,8 +178,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="col-xl-9 col-lg-9" >
                         <div class="footer-area-contract-info ">
                             <div
-                                class="footer-area-social-info d-block d-xl-flex d-lg-flex d-md-flex  align-items-center pt-74 pb-34" style="justify-content: space-between">
-                                <div class="sce-email ml-120">
+                                class="footer-area-social-info d-block d-xl-flex d-lg-flex d-md-flex  align-items-center pt-74 pb-34 justify-content-around">
+                                <div class="sce-email">
                                     <a href="mailto:info@webepictech.com"><img class="mr-15"
                                             src="./images/icon/footer-email.svg" alt=""> info@webepictech.com </a>
                                 </div>
@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <li><a href="free-seo-audit.html">Free SEO Audit</a></li>
                                 </ul>
                             </div>
-                            <div class="footer-area-quick-menu-two  ml-67 ">
+                            <div class="footer-area-quick-menu-two no-margini">
                                 <h4 class="mb-26">Our Services</h4>
                                 <ul>
                                     <li><a href="web-design.html">Web Design</a></li>
@@ -214,17 +214,31 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <li><a href="seo.html">SEO</a></li>
                                 </ul>
                             </div>
-                            <div class="footer-area-services" style="width: 300px;">
+                            <div class="footer-area-services" style="width: 400px;">
                                 <h4 class="mb-26">Contact Info</h4>
+
+                                <div class="addresss">
+                                <span style="margin-right:20px"><i class="fa-solid fa-location-dot"></i></span>
                                 <p style="color:#fff" class="pb-10"> 
-Near KCT Tech park, Saravanampatti,
-Coimbatore, Tamil Nadu 641035</p>
-<div class="d-flex gap-20 pb-10">
-<p ><a href="tel:914224714181">422 4714181</a></p>
-<span class="line-2" style="width:2px;height:100%;background:#fff;"></span>
-<p><a href="tel:919944011165">99440 11165</a></p>
-</div>
-<p><a href="mailto:info@webepictech.com">info@webepictech.com</a></p>
+                                    
+                                    Near KCT Tech park, Saravanampatti,
+                                    Coimbatore, Tamil Nadu 641035</p>
+                                </div>
+
+
+                                <div class="addresss pb-20">
+                                <span style="margin-right:20px"><i class="fa-solid fa-phone"></i></span>
+                                <div class="d-flex gap-20">
+                                        <p ><a href="tel:914224714181">422 4714181</a></p>
+                                        <span class="line-2" style="width:2px;height:100%;background:#fff;"></span>
+                                        <p><a href="tel:919944011165">99440 11165</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="addresss">
+                                <span style="margin-right:20px"><i class="fa-solid fa-envelope"></i></span>
+                                <p><a href="mailto:info@webepictech.com">info@webepictech.com</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>

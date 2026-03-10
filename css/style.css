@@ -15916,7 +15916,7 @@ html {
 }
 .about-area-content-wrapper p {
   font-family: Gilroy-Medium;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
@@ -19160,7 +19160,7 @@ html {
   line-height: normal;
 }
 .footer-area-quick-menu {
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .footer-area-quick-menu {
@@ -19346,7 +19346,7 @@ html {
 
 .mmm{
   font-size: 20px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 
 .point-flex{
@@ -19452,6 +19452,21 @@ html {
   border-radius: 10px;
 }
 
+.addresss{
+  display: flex;
+  align-items: center;
+}
+
+.addresss span i{
+  font-size: 20px;
+}
+
+p.pra-text{
+  text-align: justify;
+}
+
+
+
 
 @media (max-width: 767px){
   .pages-heading-image img{
@@ -19463,6 +19478,33 @@ html {
   .about-area-content-wrapper p.pra-text{
     font-size: 16px !important;
   }
+  .footer-area-quick-menu{
+    flex-direction: column !important;
+  }
+  .no-margini{
+    margin-left: 0px;
+  }
+  .footer-area-quick-menu-one{
+    padding-bottom: 20px;
+  }
+  .footer-area-quick-menu-two{
+    padding-bottom: 20px;
+  }
+  .footer-area-quick-menu-one h4{
+    margin-bottom: 10px !important;
+  }
+  .footer-area-quick-menu-two h4{
+    margin-bottom: 10px !important;
+  }
+  .footer-area-services h4{
+    margin-bottom: 10px !important;
+  }
+  .section-title.style-1 h2{
+  font-size: 24px !important;
+}
+.seo-audit{
+  margin-top: 0px !important;
+}
 }
 
 .banner-button a{
