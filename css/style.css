@@ -15943,7 +15943,7 @@ html {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-area-content-wrapper p.pra-text {
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 15px;
   }
 }
@@ -19448,13 +19448,20 @@ html {
 .line-2{
   background: #fff !important;
   width: 2px !important;
-  height: 100% !important;
+  height: 27px !important;
+  border-radius: 10px;
 }
 
 
 @media (max-width: 767px){
   .pages-heading-image img{
     height: 130px !important;
+  }
+  .mobile-padding{
+    padding: 40px 0px;
+  }
+  .about-area-content-wrapper p.pra-text{
+    font-size: 16px !important;
   }
 }
 
