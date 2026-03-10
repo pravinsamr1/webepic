@@ -56,11 +56,11 @@
 }
 .icon--color-right-arrow:before {
   content: "\e914";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-down-arrow-1:before {
   content: "\e915";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-Arrow-2:before {
   content: "\e913";
@@ -75,11 +75,11 @@
 }
 .icon-checkmark:before {
   content: "\e910";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-closemark:before {
   content: "\e90c";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-white-normal-arrow:before {
   content: "\e909";
@@ -101,7 +101,7 @@
 }
 .icon-color-down-arrow:before {
   content: "\e90f";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-white-up-arrow:before {
   content: "\e911";
@@ -113,7 +113,7 @@
 }
 .icon-inclined-marker:before {
   content: "\e902";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-paint-can-open:before {
   content: "\e903";
@@ -121,7 +121,7 @@
 }
 .icon-billboard-with-text:before {
   content: "\e904";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-big-paint-roller:before {
   content: "\e905";
@@ -129,7 +129,7 @@
 }
 .icon-Group:before {
   content: "\e906";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-wish-list:before {
   content: "\e907";
@@ -140,15 +140,15 @@
 }
 .icon-settings:before {
   content: "\e917";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-vision:before {
   content: "\e918";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-target-1---Copy:before {
   content: "\e919";
-  color: #edbc5a;
+  color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 .icon-css-design-awards-logos-id1L9L8Yvp-1:before {
   content: "\e90b";

@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const footer = `
     <footer>
-        <div class="footer-area body-black ">
+        <div class="footer-area body-black footerr-backk" >
             <div class="container">
                 <div class="row gx-0">
                     <div class="col-xl-3 col-lg-3 p-0">
