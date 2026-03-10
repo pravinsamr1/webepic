@@ -12962,11 +12962,11 @@ html {
 }
 
 .body-black {
-  background: #131313;
+  background: linear-gradient(100deg, #03228f 34%, #0e73e4 100%);
 }
 
 .footer-bg {
-  background: #1A1717;
+  background: #fff !important;
 }
 
 .width-100 {
@@ -14671,6 +14671,7 @@ html {
     padding-top: 0;
   }
 }
+
 .hero-area::after {
   content: "";
   position: absolute;
@@ -14678,7 +14679,7 @@ html {
   height: 376px;
   right: 50px;
   top: -90px;
-  background: rgba(237, 188, 90, 0.7);
+  background: #08c3bd;
   filter: blur(200px);
   z-index: 5;
   animation: zoomInOut 5s 2s infinite;
@@ -18551,7 +18552,7 @@ html {
   z-index: 999;
 }
 .header-area .fixed-menu.scrolled {
-  background-color: #1a1a1a;
+  background-color: #02228f;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
@@ -19441,9 +19442,6 @@ html {
     margin-left: 45px !important;
 }
 
-.footer-bg{
-  background: #221e1e !important;
-}
 
 .line-2{
   background: #fff !important;
@@ -19538,4 +19536,32 @@ p.pra-text{
   .mainnn-haader{
     max-width: 1250px !important;
   }
+}
+
+.section-title h2{
+  color: #000;
+}
+
+.about-area-content-wrapper p.pra-text{
+  color: #000;
+}
+
+.counter-area{
+  color: #000;
+}
+
+.counter-area-wrapper span{
+  color: #03228F !important;
+}
+
+.col-blackk{
+  color: #000 !important;
+}
+
+.bg-blueee{
+  background: #F6F7F9;
+}
+
+.portfolio-area-content h4{
+  color: #000;
 }
