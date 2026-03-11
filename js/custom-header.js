@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <h4>Together</h4>
                             </div>
                             <div class="footer-area-company-fast-email pb-69">
-                                <a href="tel:919944011175"> 99440 11175<img class="pl-10"
+                                <a href="tel:919944011175" class="texttt-footerr"> 99440 11175<img class="pl-10"
                                         src="./images/icon/footer-up-awrro.svg" alt=""> </a>
                             </div>
                             <hr class="mt-0 mb-16">

@@ -71,7 +71,7 @@ p {
   font-size: 16px;
   font-weight: 500;
   font-family: "Rubik", sans-serif;
-  color: #B0B0B0;
+  color: #6c6c6c;
   line-height: 29px;
   margin: 0 !important;
 }
@@ -15861,7 +15861,6 @@ html {
   background: #1A1717;
   width: 100%;
   height: auto;
-  border-radius: 20px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-area-main-part {
@@ -18750,6 +18749,12 @@ html {
   border-radius: 111px;
   border: 1px solid #d5d5d5;
 }
+
+.header-area-touch-btn a:hover{
+  border: 1px solid #dd4c23;
+}
+
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-area-touch-btn a {
     font-size: 14px;
@@ -18785,6 +18790,9 @@ html {
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
 }
+
+
+
 .header-area-touch-btn a:hover::after {
   color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
@@ -19648,4 +19656,12 @@ a:hover{
 
 .services-area-card-text h4{
   color: #fff !important;
+}
+
+.texttt-footerr{
+  font-weight: 600;
+}
+
+.wcu-area-info-card-wrapper h5{
+  color: #02228f !important;
 }
