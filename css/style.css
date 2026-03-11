@@ -13283,8 +13283,8 @@ html {
   z-index: 11;
   width: 44px;
   height: 44px;
-  color: #ffffff;
-  background: #171717;
+  color: #02228f;
+  background: #fff;
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.5s ease-out;
@@ -13322,8 +13322,8 @@ html {
   z-index: 11;
   width: 44px;
   height: 44px;
-  color: #ffffff;
-  background: #171717;
+  color: #02228f;
+  background: #fff;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   transition: all 0.5s ease-out;
@@ -18661,12 +18661,13 @@ html {
   margin-left: 0;
   padding: 10px 20px;
   background: #fff;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #f6f6f6;
 }
 .header-area-menu ul li .sub-menu li a {
   color: #000;
   font-size: 16px;
   transition: all 500ms ease;
+  text-decoration: none !important;
 }
 .header-area-menu ul li .sub-menu li:hover a {
   color: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
