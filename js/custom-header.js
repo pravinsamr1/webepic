@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <span style="margin-right:20px"><i class="fa-solid fa-location-dot"></i></span>
                                 <p style="color:#fff" class="pb-10"> 
                                     
-                                    Near KCT Tech park, Saravanampatti,
+                                    Near KCT Tech park, Saravanampatti, <br>
                                     Coimbatore, Tamil Nadu 641035</p>
                                 </div>
 

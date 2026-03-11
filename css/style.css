@@ -14031,7 +14031,7 @@ html {
 
 .team-secondary-partner.blog-details-form {
   padding: 80px 83px 87px 80px;
-  background: #1a1717;
+  background: #02228f;
   border-radius: 20px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -14219,13 +14219,14 @@ html {
 .team-secondary-partner .contact-form form .page-btn a {
   display: inline-block;
   padding: 22px 19px 22px 42px;
-  border: 1px solid linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
+  /* border: 1px solid linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%); */
   color: var(--White, #fff);
   font-family: Gilroy-Medium;
   font-size: 28px;
   font-weight: 400;
   line-height: normal;
   border-radius: 38px;
+  background: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .team-secondary-partner .contact-form form .page-btn a {
@@ -18352,7 +18353,8 @@ html {
 }
 .blog-details-btn-wrapper a {
   padding: 5px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
   display: inline-block;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -19344,13 +19346,14 @@ html {
 }
 
 .nmnmn img{
-  width: 600px;
-  height: 400px;
+  /* width: 600px;
+  height: 400px; */
 }
 
 .mmm{
   font-size: 20px;
   font-weight: 400 !important;
+  color: #000;
 }
 
 .point-flex{
@@ -19447,7 +19450,7 @@ html {
 
 
 .line-2{
-  background: #fff !important;
+  background: #2e76d5 !important;
   width: 2px !important;
   height: 27px !important;
   border-radius: 10px;
@@ -19506,6 +19509,7 @@ p.pra-text{
 .seo-audit{
   margin-top: 0px !important;
 }
+
 }
 
 .banner-button a{
@@ -19584,4 +19588,64 @@ a:hover{
 
 .portfolio-area-btnn a{
   color: #02228f;
+}
+
+.addresss p{
+  font-weight: 400;
+}
+
+.single-img-marque{
+  border: 1px solid #dbdbdb;
+   border-radius: 20px;
+}
+
+.vision-margin{
+  margin-top: 40px !important;
+}
+
+@media(max-width:767px){
+  .hero-area-title h1{
+  font-size: 50px;
+}
+.hero-area{
+  padding-top: 30px;
+}
+.header-area{
+  height: 80px;
+}
+.mobile-margin{
+  margin-top: 40px;
+}
+
+}
+
+.blue-textt span, h4{
+  color: #02228f !important;
+  font-weight: 800 !important;
+}
+
+.footer-area-services h4{
+  color: #fff !important;
+}
+
+.footer-area-quick-menu-one h4{
+  color: #fff !important;
+
+}
+
+.footer-area-quick-menu-two h4{
+  color: #fff !important;
+
+}
+
+.footer-area-heading-text h4{
+  color: #fff !important;
+}
+
+.blog-details-news-img img{
+  width: 80px;
+}
+
+.services-area-card-text h4{
+  color: #fff !important;
 }
