@@ -19850,3 +19850,21 @@ a:hover{
     opacity: 0;
   }
 }
+
+.footer-area-social-info a{
+  font-size: 20px;
+}
+
+.social-content  a{
+  font-size: 20px !important;
+}
+
+@media(max-width:767px){
+  .footer-area-social-info a{
+  font-size: 16px;
+}
+
+.social-content  a{
+  font-size: 16px !important;
+}
+}
