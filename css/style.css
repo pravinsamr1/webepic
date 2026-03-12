@@ -14036,7 +14036,7 @@ html {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .team-secondary-partner.blog-details-form {
-    padding: 20px 10px 20px 10px;
+    padding: 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -16377,7 +16377,7 @@ html {
     width: 400px;
     height: 400px;
     margin-left: 214px;
-    margin-top: -43px;
+    margin-top: -175px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -19723,6 +19723,33 @@ a:hover{
     margin-bottom: 0px;
   }
 
+  .focus-imggg{
+    margin-bottom: 20px;
+  }
+
+  .focus-imgg{
+    margin-top: 20px;
+  }
+
+  .title-foucs h2{
+    margin-bottom: 10px !important;
+  }
+
+  .title-foucs{
+    margin-bottom: 10px;
+  }
+
+  .focus-padd{
+    padding: 40px 0px;
+  }
+  
+  .free-seooo h4{
+    margin: 20px 0px;
+  }
+
+  .seoo-padding{
+    padding-bottom: 0px;
+  }
 }
 
 .blog-connternt{
@@ -19742,6 +19769,13 @@ a:hover{
 
 .blog-main-img{
   border-radius: 20px 20px 0px 0px !important;
+}
+
+
+@media(min-width:1200px){
+  .wcu-areaa-circlee{
+    top: 100px;
+  }
 }
 
 .call-fixed{

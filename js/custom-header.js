@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </ul>
                             </nav>
                             <div class="toggle-menu-contact">
-                                <h4 class="mb-25">Contact Info</h4>
+                                <h4 class="mb-25 text-white">Contact Info</h4>
                                 <div class="address mb-20">
                                     <i class="mr-10 fa-solid fa-location-dot"></i>
                                     <span>Saravanampatti, Coimbatore, <br>
