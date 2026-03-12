@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 <li><a href="devops.html">DevOps</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./clients.html">Our Clients</a></li>
+                                    <li><a href="our-clients.html">Our Clients</a></li>
                                     <li>
                                         <a href="./blog.html">Blogs</a>
                                     </li>
