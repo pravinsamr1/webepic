@@ -19855,6 +19855,19 @@ a:hover{
   font-size: 20px;
 }
 
+.service-point{
+  margin-top: 20px;
+}
+
+.service-point li{
+  margin-bottom: 10px;
+}
+
+.title-foucs h2{
+  font-size: 48px;
+}
+
+
 .social-content  a{
   font-size: 20px !important;
 }
@@ -19866,5 +19879,9 @@ a:hover{
 
 .social-content  a{
   font-size: 16px !important;
+}
+
+.pff{
+  padding: 0px ;
 }
 }
