@@ -19863,6 +19863,11 @@ a:hover{
   margin-bottom: 10px;
 }
 
+.service-point li{
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
 .title-foucs h2{
   font-size: 48px;
 }
