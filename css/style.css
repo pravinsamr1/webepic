@@ -53,6 +53,16 @@ Footer
   outline: none;
 }
 
+::selection {
+  background: #eaeafd !important; /* your brand color (indigo) */
+  color: #000 !important; /* text color */
+}
+
+::-moz-selection {
+  background: #eaeafd !important;
+  color: #000 !important;
+}
+
 html,
 body {
   height: 100%;
@@ -69,9 +79,8 @@ body {
 
 p {
   font-size: 16px;
-  font-weight: 500;
   font-family: "Rubik", sans-serif;
-  color: #6c6c6c;
+  color: #1c1c1c;
   line-height: 29px;
   margin: 0 !important;
 }
