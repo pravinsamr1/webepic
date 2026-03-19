@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
                                         </li>
                                         <li class="scroll-effect"><a class="plus-icon" href="#">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="web-design.html">Web Design</a></li>
                                                 <li><a href="web-development.html">Web Development</a></li>
                                                 <li><a href="cms-and-ecommerce.html">CMS & Ecommerce</a></li>
                                                 <li><a href="digital-marketing.html">Digital Marketing</a></li>
