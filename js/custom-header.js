@@ -34,8 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 <li><a href="digital-marketing.html">Digital Marketing</a></li>
                                                 <li><a href="mobile-applications.html">Mobile Applications</a></li>
                                                 <li><a href="ai-agent.html">AI Agent</a></li>
-                                                <li><a href="sap.html">SAP</a></li>
-                                                <li><a href="devops.html">DevOps</a></li>
+                                                <li><a href="sap.html">SAP & DevOps</a></li>
                                             </ul>
                                         </li>
                                         <li class="scroll-effect">
@@ -94,8 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                                 <li><a href="digital-marketing.html">Digital Marketing</a></li>
                                                 <li><a href="mobile-applications.html">Mobile Applications</a></li>
                                                 <li><a href="ai-agent.html">AI Agent</a></li>
-                                                <li><a href="sap.html">SAP</a></li>
-                                                <li><a href="devops.html">DevOps</a></li>
+                                                <li><a href="sap.html">SAP & DevOps</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="our-clients.html">Our Clients</a></li>
