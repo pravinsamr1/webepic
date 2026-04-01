@@ -19909,3 +19909,9 @@ a:hover{
 .header-area-touch-btn:hover a::after {
   color: black;
 }
+
+@media(max-width:767px){
+  .pages-heading{
+    padding-top: 30px;
+  }
+}
