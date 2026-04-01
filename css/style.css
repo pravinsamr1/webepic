@@ -19359,7 +19359,7 @@ html {
 }
 .pff{
   padding: 0px 20px;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .pages-heading-image img{
@@ -19910,8 +19910,15 @@ a:hover{
   color: black;
 }
 
+.footer-aread-contacttt{
+  width: 400px;
+}
+
 @media(max-width:767px){
   .pages-heading{
     padding-top: 30px;
+  }
+  .footer-aread-contacttt{
+    width: 100%;
   }
 }

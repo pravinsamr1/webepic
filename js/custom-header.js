@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <li class="scroll-effect"><a class="plus-icon" href="#">Services</a>
                                             <ul class="sub-menu">
                                                 <li><a href="web-development.html">Web Development</a></li>
-                                                <li><a href="cms-and-ecommerce.html">CMS & Ecommerce</a></li>
+                                                <li><a href="cms-and-ecommerce.html">CMS</a></li>
                                                 <li><a href="digital-marketing.html">Digital Marketing</a></li>
                                                 <li><a href="mobile-applications.html">Mobile Applications</a></li>
                                                 <li><a href="ai-agent.html">AI Agent</a></li>
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         <ul id="dropdown-toggle-menu-3" class=" hidden-list">
                                             <li><a href="web-design.html">Web Design</a></li>
                                                 <li><a href="web-development.html">Web Development</a></li>
-                                                <li><a href="cms-and-ecommerce.html">CMS & Ecommerce</a></li>
+                                                <li><a href="cms-and-ecommerce.html">CMS</a></li>
                                                 <li><a href="digital-marketing.html">Digital Marketing</a></li>
                                                 <li><a href="mobile-applications.html">Mobile Applications</a></li>
                                                 <li><a href="ai-agent.html">AI Agent</a></li>
@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <li><a href="seo.html">SEO</a></li>
                                 </ul>
                             </div>
-                            <div class="footer-area-services" style="width: 400px;">
+                            <div class="footer-area-services ">
                                 <h4 class="mb-26">Contact Info</h4>
 
                                 <div class="addresss">
