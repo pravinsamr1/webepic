@@ -87,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
                                                     class="fa-solid fa-plus"></i></button>
                                         </div>
                                         <ul id="dropdown-toggle-menu-3" class=" hidden-list">
-                                            <li><a href="web-design.html">Web Design</a></li>
                                                 <li><a href="web-development.html">Web Development</a></li>
                                                 <li><a href="cms-and-ecommerce.html">CMS</a></li>
                                                 <li><a href="digital-marketing.html">Digital Marketing</a></li>
@@ -107,6 +106,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                     <li>
                                         <a href="carrers.html">Carrers</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact-us.html">Reach Us</a>
                                     </li>
                                 </ul>
                             </nav>
